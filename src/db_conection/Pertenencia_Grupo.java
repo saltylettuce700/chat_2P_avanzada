@@ -1,0 +1,25 @@
+package db_conection;
+
+/**
+ *
+ * @author panch
+ */
+public class Pertenencia_Grupo {
+    public int id_pertenencia_grupo;
+    public int grupo;
+    public int usuario_perteneciente;
+    
+    public Pertenencia_Grupo()
+    {
+        id_pertenencia_grupo = 0;
+        grupo = 0;
+        usuario_perteneciente = 0;
+    }
+    
+    public Pertenencia_Grupo(int grupo, int usuario_perteneciente)
+    {
+        this.id_pertenencia_grupo = id_pertenencia_grupo;
+        this.grupo = grupo;
+        this.usuario_perteneciente = usuario_perteneciente;
+    }
+}
